@@ -1,0 +1,51 @@
+/* gradiente / transformaciones */
+.contenedorGaleria {
+    background-image: linear-gradient(rgb(233, 122, 122), rgb(153, 46, 46));
+}
+
+.contenedor {
+    background-image: linear-gradient(rgb(233, 122, 122), rgb(153, 46, 46));
+}
+
+.contenedorEstampas {
+    background-image: linear-gradient(rgb(233, 122, 122), rgb(153, 46, 46));
+}
+
+.gridImagenes {
+    transform: translate(400px);
+}
+
+.navegacion {
+    transform: translate(20px)
+}
+
+.navegacion {
+    background-image: linear-gradient(rgb(204, 88, 88), rgb(239, 126, 126));
+}
+
+.contenedor {
+    background-image: url(../Imagen/Logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    height: 90vh
+}
+
+.main {
+    align-items: center;
+    justify-items: center;
+}
+
+.formulario {
+    background-color: rgb(239, 126, 126);
+}
+
+a:hover {
+    background-color: rgb(217, 111, 111);
+    font-weight: bold;
+}
+
+.imagenes:hover {
+    scale: 1.5;
+}

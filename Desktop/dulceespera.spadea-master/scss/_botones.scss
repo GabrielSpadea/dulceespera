@@ -1,0 +1,5 @@
+.btn{
+    @extend %botonBase;
+    @extend %flexRow;
+}
+.boton {@include botones($borderColor: rgb(72, 30, 30), $textColor: rgb(218, 160, 160)) }
