@@ -211,10 +211,6 @@ a:hover {
   height: 90vh;
 }
 
-.header {
-  height: 20rem;
-}
-
 .navegacion ul {
   display: flex;
   list-style: none;
@@ -239,16 +235,9 @@ a:hover {
 /* contacto */
 .formulario {
   background-color: rgb(233, 225, 226);
-  color: rgb(94, 38, 45);
+  color: rgb(163, 99, 105);
   text-align: center;
   height: 800px;
-}
-
-.contenedorEstampas {
-  display: grid;
-  grid-template-areas: "header" "navegacion" "main" "footer";
-  grid-template-columns: 100%;
-  grid-template-rows: 18% 6% 800px 10%;
 }
 
 .header {
@@ -375,7 +364,7 @@ a:hover {
   display: grid;
   grid-template-areas: "header" "navegacion" "fondomantas" "footer";
   grid-template-columns: 100%;
-  grid-template-rows: 5% 40% 70% 20%;
+  grid-template-rows: 15% 40% 50% 20%;
 }
 
 .header {
@@ -437,30 +426,6 @@ a:hover {
   grid-template-columns: auto;
   justify-content: center;
   align-content: center;
-  background-color: rgb(233, 182, 182);
-}
-
-.contenedor {
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
-  align-content: center;
-  background-color: rgb(118, 71, 71);
-}
-
-.contenedorTienda {
-  background-color: rgb(233, 182, 182);
-}
-
-.contenedorEstampas {
-  background-color: rgb(233, 182, 182);
-}
-
-.contenedorGaleria {
-  background-color: rgb(233, 182, 182);
-}
-
-.contenedorContacto {
   background-color: rgb(233, 182, 182);
 }
 
@@ -913,10 +878,4 @@ a:hover {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-
-.boton {
-  padding: 10px;
-  border-bottom: 3ox solid rgb(200, 128, 128);
-  background-color: rgb(217, 164, 194);
 }/*# sourceMappingURL=styles.css.map */
